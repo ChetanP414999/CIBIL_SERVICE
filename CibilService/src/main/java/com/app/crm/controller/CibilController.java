@@ -19,8 +19,6 @@ public class CibilController {
 		Random random=new  Random();
 	 int cibil=	random.nextInt(601)+300;
 		
-	
-	
 		return new ResponseEntity<Integer>(cibil,HttpStatus.CREATED);
 		
 		
